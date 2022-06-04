@@ -1,0 +1,842 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC3E751C-B02D-4FC8-9B36-2A92A5B9A93B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BlaidProject</RootNamespace>
+    <AssemblyName>BlaidProject</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\0v9\index.html" />
+    <Content Include="Admin\7bL\index.html" />
+    <Content Include="Admin\ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\index.html" />
+    <Content Include="Admin\css\extra_pages.css" />
+    <Content Include="Admin\css\formlayout.css" />
+    <Content Include="Admin\css\fullcalendar.css" />
+    <Content Include="Admin\css\images\arrow-down.html" />
+    <Content Include="Admin\css\inbox.min.css" />
+    <Content Include="Admin\css\index.html" />
+    <Content Include="Admin\css\index2a60.html" />
+    <Content Include="Admin\css\index38f9.html" />
+    <Content Include="Admin\css\index3dd6.html" />
+    <Content Include="Admin\css\index7dc1.html" />
+    <Content Include="Admin\css\index9a11.html" />
+    <Content Include="Admin\css\indexd4cd.html" />
+    <Content Include="Admin\css\jquery.mCustomScrollbar.css" />
+    <Content Include="Admin\css\jquery.mcustomscrollbar.html" />
+    <Content Include="Admin\css\login.css" />
+    <Content Include="Admin\css\material_style.css" />
+    <Content Include="Admin\css\mCSB_buttons.html" />
+    <Content Include="Admin\css\plugins.min.css" />
+    <Content Include="Admin\css\responsive.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\css\theme-color.css" />
+    <Content Include="Admin\css\theme_style.css" />
+    <Content Include="Admin\css\typography.css" />
+    <Content Include="Admin\DA7\index.html" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\es5-ext\array\index.html" />
+    <Content Include="Admin\es5-ext\string\index.html" />
+    <Content Include="Admin\fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Admin\fonts\font-awesome\fonts\fontawesome-webfont3e6e.svg" />
+    <Content Include="Admin\fonts\font-awesome\v6\css\all.css" />
+    <Content Include="Admin\fonts\material-design-icons\material-icon.css" />
+    <Content Include="Admin\fonts\simple-line-icons\fonts\Simple-Line-Iconsb26c.svg" />
+    <Content Include="Admin\fonts\simple-line-icons\simple-line-icons.min.css" />
+    <Content Include="Admin\global\plugins\index.html" />
+    <Content Include="Admin\image\index.html" />
+    <Content Include="Admin\img\accordion-plusminus.png" />
+    <Content Include="Admin\img\arrow-down.png" />
+    <Content Include="Admin\img\bg-01.jpg" />
+    <Content Include="Admin\img\bg.jpg" />
+    <Content Include="Admin\img\blog\blog1.jpg" />
+    <Content Include="Admin\img\blog\blog2.jpg" />
+    <Content Include="Admin\img\blog\blog3.jpg" />
+    <Content Include="Admin\img\blog\blog4.jpg" />
+    <Content Include="Admin\img\blog\index.html" />
+    <Content Include="Admin\img\blog\index2a60.html" />
+    <Content Include="Admin\img\blog\index38f9.html" />
+    <Content Include="Admin\img\blog\index3dd6.html" />
+    <Content Include="Admin\img\blog\index7dc1.html" />
+    <Content Include="Admin\img\blog\index9a11.html" />
+    <Content Include="Admin\img\blog\indexd4cd.html" />
+    <Content Include="Admin\img\datatable-row-openclose.html" />
+    <Content Include="Admin\img\details_close.png" />
+    <Content Include="Admin\img\details_open.png" />
+    <Content Include="Admin\img\doc\doc1.jpg" />
+    <Content Include="Admin\img\doc\doc10.jpg" />
+    <Content Include="Admin\img\doc\doc2.jpg" />
+    <Content Include="Admin\img\doc\doc3.jpg" />
+    <Content Include="Admin\img\doc\doc4.jpg" />
+    <Content Include="Admin\img\doc\doc5.jpg" />
+    <Content Include="Admin\img\doc\doc6.jpg" />
+    <Content Include="Admin\img\doc\doc7.jpg" />
+    <Content Include="Admin\img\doc\doc8.jpg" />
+    <Content Include="Admin\img\doc\doc9.jpg" />
+    <Content Include="Admin\img\doc\index.html" />
+    <Content Include="Admin\img\doc\index2a60.html" />
+    <Content Include="Admin\img\doc\index38f9.html" />
+    <Content Include="Admin\img\doc\index3dd6.html" />
+    <Content Include="Admin\img\doc\index7dc1.html" />
+    <Content Include="Admin\img\doc\index9a11.html" />
+    <Content Include="Admin\img\doc\indexd4cd.html" />
+    <Content Include="Admin\img\dp.jpg" />
+    <Content Include="Admin\img\favicon.ico" />
+    <Content Include="Admin\img\flags\ad.png" />
+    <Content Include="Admin\img\flags\ae.png" />
+    <Content Include="Admin\img\flags\af.png" />
+    <Content Include="Admin\img\flags\ag.png" />
+    <Content Include="Admin\img\flags\ai.png" />
+    <Content Include="Admin\img\flags\al.png" />
+    <Content Include="Admin\img\flags\am.png" />
+    <Content Include="Admin\img\flags\an.png" />
+    <Content Include="Admin\img\flags\ao.png" />
+    <Content Include="Admin\img\flags\ar.png" />
+    <Content Include="Admin\img\flags\as.png" />
+    <Content Include="Admin\img\flags\at.png" />
+    <Content Include="Admin\img\flags\au.png" />
+    <Content Include="Admin\img\flags\aw.png" />
+    <Content Include="Admin\img\flags\ax.png" />
+    <Content Include="Admin\img\flags\az.png" />
+    <Content Include="Admin\img\flags\ba.png" />
+    <Content Include="Admin\img\flags\bb.png" />
+    <Content Include="Admin\img\flags\bd.png" />
+    <Content Include="Admin\img\flags\be.png" />
+    <Content Include="Admin\img\flags\bf.png" />
+    <Content Include="Admin\img\flags\bg.png" />
+    <Content Include="Admin\img\flags\bh.png" />
+    <Content Include="Admin\img\flags\bi.png" />
+    <Content Include="Admin\img\flags\bj.png" />
+    <Content Include="Admin\img\flags\bm.png" />
+    <Content Include="Admin\img\flags\bn.png" />
+    <Content Include="Admin\img\flags\bo.png" />
+    <Content Include="Admin\img\flags\br.png" />
+    <Content Include="Admin\img\flags\bs.png" />
+    <Content Include="Admin\img\flags\bt.png" />
+    <Content Include="Admin\img\flags\bv.png" />
+    <Content Include="Admin\img\flags\bw.png" />
+    <Content Include="Admin\img\flags\by.png" />
+    <Content Include="Admin\img\flags\bz.png" />
+    <Content Include="Admin\img\flags\ca.png" />
+    <Content Include="Admin\img\flags\catalonia.png" />
+    <Content Include="Admin\img\flags\cc.png" />
+    <Content Include="Admin\img\flags\cd.png" />
+    <Content Include="Admin\img\flags\cf.png" />
+    <Content Include="Admin\img\flags\cg.png" />
+    <Content Include="Admin\img\flags\ch.png" />
+    <Content Include="Admin\img\flags\ci.png" />
+    <Content Include="Admin\img\flags\ck.png" />
+    <Content Include="Admin\img\flags\cl.png" />
+    <Content Include="Admin\img\flags\cm.png" />
+    <Content Include="Admin\img\flags\cn.png" />
+    <Content Include="Admin\img\flags\co.png" />
+    <Content Include="Admin\img\flags\cr.png" />
+    <Content Include="Admin\img\flags\cs.png" />
+    <Content Include="Admin\img\flags\cu.png" />
+    <Content Include="Admin\img\flags\cv.png" />
+    <Content Include="Admin\img\flags\cx.png" />
+    <Content Include="Admin\img\flags\cy.png" />
+    <Content Include="Admin\img\flags\cz.png" />
+    <Content Include="Admin\img\flags\de.png" />
+    <Content Include="Admin\img\flags\dj.png" />
+    <Content Include="Admin\img\flags\dk.png" />
+    <Content Include="Admin\img\flags\dm.png" />
+    <Content Include="Admin\img\flags\do.png" />
+    <Content Include="Admin\img\flags\dz.png" />
+    <Content Include="Admin\img\flags\ec.png" />
+    <Content Include="Admin\img\flags\ee.png" />
+    <Content Include="Admin\img\flags\eg.png" />
+    <Content Include="Admin\img\flags\eh.png" />
+    <Content Include="Admin\img\flags\england.png" />
+    <Content Include="Admin\img\flags\er.png" />
+    <Content Include="Admin\img\flags\es.png" />
+    <Content Include="Admin\img\flags\et.png" />
+    <Content Include="Admin\img\flags\europeanunion.png" />
+    <Content Include="Admin\img\flags\fam.png" />
+    <Content Include="Admin\img\flags\fi.png" />
+    <Content Include="Admin\img\flags\fj.png" />
+    <Content Include="Admin\img\flags\fk.png" />
+    <Content Include="Admin\img\flags\fm.png" />
+    <Content Include="Admin\img\flags\fo.png" />
+    <Content Include="Admin\img\flags\fr.png" />
+    <Content Include="Admin\img\flags\french_flag.jpg" />
+    <Content Include="Admin\img\flags\ga.png" />
+    <Content Include="Admin\img\flags\gb.png" />
+    <Content Include="Admin\img\flags\gd.png" />
+    <Content Include="Admin\img\flags\ge.png" />
+    <Content Include="Admin\img\flags\germany_flag.jpg" />
+    <Content Include="Admin\img\flags\gf.png" />
+    <Content Include="Admin\img\flags\gh.png" />
+    <Content Include="Admin\img\flags\gi.png" />
+    <Content Include="Admin\img\flags\gl.png" />
+    <Content Include="Admin\img\flags\gm.png" />
+    <Content Include="Admin\img\flags\gn.png" />
+    <Content Include="Admin\img\flags\gp.png" />
+    <Content Include="Admin\img\flags\gq.png" />
+    <Content Include="Admin\img\flags\gr.png" />
+    <Content Include="Admin\img\flags\gs.png" />
+    <Content Include="Admin\img\flags\gt.png" />
+    <Content Include="Admin\img\flags\gu.png" />
+    <Content Include="Admin\img\flags\gw.png" />
+    <Content Include="Admin\img\flags\gy.png" />
+    <Content Include="Admin\img\flags\hk.png" />
+    <Content Include="Admin\img\flags\hm.png" />
+    <Content Include="Admin\img\flags\hn.png" />
+    <Content Include="Admin\img\flags\hr.png" />
+    <Content Include="Admin\img\flags\ht.png" />
+    <Content Include="Admin\img\flags\hu.png" />
+    <Content Include="Admin\img\flags\id.png" />
+    <Content Include="Admin\img\flags\ie.png" />
+    <Content Include="Admin\img\flags\il.png" />
+    <Content Include="Admin\img\flags\in.png" />
+    <Content Include="Admin\img\flags\index.html" />
+    <Content Include="Admin\img\flags\index2a60.html" />
+    <Content Include="Admin\img\flags\index38f9.html" />
+    <Content Include="Admin\img\flags\index3dd6.html" />
+    <Content Include="Admin\img\flags\index7dc1.html" />
+    <Content Include="Admin\img\flags\index9a11.html" />
+    <Content Include="Admin\img\flags\indexd4cd.html" />
+    <Content Include="Admin\img\flags\io.png" />
+    <Content Include="Admin\img\flags\iq.png" />
+    <Content Include="Admin\img\flags\ir.png" />
+    <Content Include="Admin\img\flags\is.png" />
+    <Content Include="Admin\img\flags\it.png" />
+    <Content Include="Admin\img\flags\italy_flag.jpg" />
+    <Content Include="Admin\img\flags\jm.png" />
+    <Content Include="Admin\img\flags\jo.png" />
+    <Content Include="Admin\img\flags\jp.png" />
+    <Content Include="Admin\img\flags\ke.png" />
+    <Content Include="Admin\img\flags\kg.png" />
+    <Content Include="Admin\img\flags\kh.png" />
+    <Content Include="Admin\img\flags\ki.png" />
+    <Content Include="Admin\img\flags\km.png" />
+    <Content Include="Admin\img\flags\kn.png" />
+    <Content Include="Admin\img\flags\kp.png" />
+    <Content Include="Admin\img\flags\kr.png" />
+    <Content Include="Admin\img\flags\kw.png" />
+    <Content Include="Admin\img\flags\ky.png" />
+    <Content Include="Admin\img\flags\kz.png" />
+    <Content Include="Admin\img\flags\la.png" />
+    <Content Include="Admin\img\flags\lb.png" />
+    <Content Include="Admin\img\flags\lc.png" />
+    <Content Include="Admin\img\flags\li.png" />
+    <Content Include="Admin\img\flags\lk.png" />
+    <Content Include="Admin\img\flags\lr.png" />
+    <Content Include="Admin\img\flags\ls.png" />
+    <Content Include="Admin\img\flags\lt.png" />
+    <Content Include="Admin\img\flags\lu.png" />
+    <Content Include="Admin\img\flags\lv.png" />
+    <Content Include="Admin\img\flags\ly.png" />
+    <Content Include="Admin\img\flags\ma.png" />
+    <Content Include="Admin\img\flags\mc.png" />
+    <Content Include="Admin\img\flags\md.png" />
+    <Content Include="Admin\img\flags\me.png" />
+    <Content Include="Admin\img\flags\mg.png" />
+    <Content Include="Admin\img\flags\mh.png" />
+    <Content Include="Admin\img\flags\mk.png" />
+    <Content Include="Admin\img\flags\ml.png" />
+    <Content Include="Admin\img\flags\mm.png" />
+    <Content Include="Admin\img\flags\mn.png" />
+    <Content Include="Admin\img\flags\mo.png" />
+    <Content Include="Admin\img\flags\mp.png" />
+    <Content Include="Admin\img\flags\mq.png" />
+    <Content Include="Admin\img\flags\mr.png" />
+    <Content Include="Admin\img\flags\ms.png" />
+    <Content Include="Admin\img\flags\mt.png" />
+    <Content Include="Admin\img\flags\mu.png" />
+    <Content Include="Admin\img\flags\mv.png" />
+    <Content Include="Admin\img\flags\mw.png" />
+    <Content Include="Admin\img\flags\mx.png" />
+    <Content Include="Admin\img\flags\my.png" />
+    <Content Include="Admin\img\flags\mz.png" />
+    <Content Include="Admin\img\flags\na.png" />
+    <Content Include="Admin\img\flags\nc.png" />
+    <Content Include="Admin\img\flags\ne.png" />
+    <Content Include="Admin\img\flags\nf.png" />
+    <Content Include="Admin\img\flags\ng.png" />
+    <Content Include="Admin\img\flags\ni.png" />
+    <Content Include="Admin\img\flags\nl.png" />
+    <Content Include="Admin\img\flags\no.png" />
+    <Content Include="Admin\img\flags\np.png" />
+    <Content Include="Admin\img\flags\nr.png" />
+    <Content Include="Admin\img\flags\nu.png" />
+    <Content Include="Admin\img\flags\nz.png" />
+    <Content Include="Admin\img\flags\om.png" />
+    <Content Include="Admin\img\flags\pa.png" />
+    <Content Include="Admin\img\flags\pe.png" />
+    <Content Include="Admin\img\flags\pf.png" />
+    <Content Include="Admin\img\flags\pg.png" />
+    <Content Include="Admin\img\flags\ph.png" />
+    <Content Include="Admin\img\flags\pk.png" />
+    <Content Include="Admin\img\flags\pl.png" />
+    <Content Include="Admin\img\flags\pm.png" />
+    <Content Include="Admin\img\flags\pn.png" />
+    <Content Include="Admin\img\flags\pr.png" />
+    <Content Include="Admin\img\flags\ps.png" />
+    <Content Include="Admin\img\flags\pt.png" />
+    <Content Include="Admin\img\flags\pw.png" />
+    <Content Include="Admin\img\flags\py.png" />
+    <Content Include="Admin\img\flags\qa.png" />
+    <Content Include="Admin\img\flags\re.png" />
+    <Content Include="Admin\img\flags\ro.png" />
+    <Content Include="Admin\img\flags\rs.png" />
+    <Content Include="Admin\img\flags\ru.png" />
+    <Content Include="Admin\img\flags\russia_flag.jpg" />
+    <Content Include="Admin\img\flags\rw.png" />
+    <Content Include="Admin\img\flags\sa.png" />
+    <Content Include="Admin\img\flags\sb.png" />
+    <Content Include="Admin\img\flags\sc.png" />
+    <Content Include="Admin\img\flags\scotland.png" />
+    <Content Include="Admin\img\flags\sd.png" />
+    <Content Include="Admin\img\flags\se.png" />
+    <Content Include="Admin\img\flags\sg.png" />
+    <Content Include="Admin\img\flags\sh.png" />
+    <Content Include="Admin\img\flags\si.png" />
+    <Content Include="Admin\img\flags\sj.png" />
+    <Content Include="Admin\img\flags\sk.png" />
+    <Content Include="Admin\img\flags\sl.png" />
+    <Content Include="Admin\img\flags\sm.png" />
+    <Content Include="Admin\img\flags\sn.png" />
+    <Content Include="Admin\img\flags\so.png" />
+    <Content Include="Admin\img\flags\spain_flag.jpg" />
+    <Content Include="Admin\img\flags\sr.png" />
+    <Content Include="Admin\img\flags\st.png" />
+    <Content Include="Admin\img\flags\sv.png" />
+    <Content Include="Admin\img\flags\sy.png" />
+    <Content Include="Admin\img\flags\sz.png" />
+    <Content Include="Admin\img\flags\tc.png" />
+    <Content Include="Admin\img\flags\td.png" />
+    <Content Include="Admin\img\flags\tf.png" />
+    <Content Include="Admin\img\flags\tg.png" />
+    <Content Include="Admin\img\flags\th.png" />
+    <Content Include="Admin\img\flags\tj.png" />
+    <Content Include="Admin\img\flags\tk.png" />
+    <Content Include="Admin\img\flags\tl.png" />
+    <Content Include="Admin\img\flags\tm.png" />
+    <Content Include="Admin\img\flags\tn.png" />
+    <Content Include="Admin\img\flags\to.png" />
+    <Content Include="Admin\img\flags\tr.png" />
+    <Content Include="Admin\img\flags\tt.png" />
+    <Content Include="Admin\img\flags\tv.png" />
+    <Content Include="Admin\img\flags\tw.png" />
+    <Content Include="Admin\img\flags\tz.png" />
+    <Content Include="Admin\img\flags\ua.png" />
+    <Content Include="Admin\img\flags\ug.png" />
+    <Content Include="Admin\img\flags\um.png" />
+    <Content Include="Admin\img\flags\us.png" />
+    <Content Include="Admin\img\flags\usa_flag.jpg" />
+    <Content Include="Admin\img\flags\uy.png" />
+    <Content Include="Admin\img\flags\uz.png" />
+    <Content Include="Admin\img\flags\va.png" />
+    <Content Include="Admin\img\flags\vc.png" />
+    <Content Include="Admin\img\flags\ve.png" />
+    <Content Include="Admin\img\flags\vg.png" />
+    <Content Include="Admin\img\flags\vi.png" />
+    <Content Include="Admin\img\flags\vn.png" />
+    <Content Include="Admin\img\flags\vu.png" />
+    <Content Include="Admin\img\flags\wales.png" />
+    <Content Include="Admin\img\flags\wf.png" />
+    <Content Include="Admin\img\flags\ws.png" />
+    <Content Include="Admin\img\flags\ye.png" />
+    <Content Include="Admin\img\flags\yt.png" />
+    <Content Include="Admin\img\flags\za.png" />
+    <Content Include="Admin\img\flags\zm.png" />
+    <Content Include="Admin\img\flags\zw.png" />
+    <Content Include="Admin\img\hospital.png" />
+    <Content Include="Admin\img\index.html" />
+    <Content Include="Admin\img\index2a60.html" />
+    <Content Include="Admin\img\index38f9.html" />
+    <Content Include="Admin\img\index3dd6.html" />
+    <Content Include="Admin\img\index7dc1.html" />
+    <Content Include="Admin\img\index9a11.html" />
+    <Content Include="Admin\img\indexd4cd.html" />
+    <Content Include="Admin\img\invoice_logo.png" />
+    <Content Include="Admin\img\loading.gif" />
+    <Content Include="Admin\img\mega-img1.jpg" />
+    <Content Include="Admin\img\mega-img2.jpg" />
+    <Content Include="Admin\img\mega-img3.jpg" />
+    <Content Include="Admin\img\menu-toggler.png" />
+    <Content Include="Admin\img\pages\404.jpg" />
+    <Content Include="Admin\img\pages\500.jpg" />
+    <Content Include="Admin\img\pages\forgot.jpg" />
+    <Content Include="Admin\img\pages\index.html" />
+    <Content Include="Admin\img\pages\index2a60.html" />
+    <Content Include="Admin\img\pages\index38f9.html" />
+    <Content Include="Admin\img\pages\index3dd6.html" />
+    <Content Include="Admin\img\pages\index7dc1.html" />
+    <Content Include="Admin\img\pages\index9a11.html" />
+    <Content Include="Admin\img\pages\indexd4cd.html" />
+    <Content Include="Admin\img\pages\signin.jpg" />
+    <Content Include="Admin\img\pages\signup.jpg" />
+    <Content Include="Admin\img\patient1.jpg" />
+    <Content Include="Admin\img\remove-icon-small.png" />
+    <Content Include="Admin\img\slider\fullimage1.jpg" />
+    <Content Include="Admin\img\slider\fullimage2.jpg" />
+    <Content Include="Admin\img\slider\fullimage3.jpg" />
+    <Content Include="Admin\img\slider\index.html" />
+    <Content Include="Admin\img\slider\index2a60.html" />
+    <Content Include="Admin\img\slider\index38f9.html" />
+    <Content Include="Admin\img\slider\index3dd6.html" />
+    <Content Include="Admin\img\slider\index7dc1.html" />
+    <Content Include="Admin\img\slider\index9a11.html" />
+    <Content Include="Admin\img\slider\indexd4cd.html" />
+    <Content Include="Admin\img\slider\owl1.jpg" />
+    <Content Include="Admin\img\slider\owl2.jpg" />
+    <Content Include="Admin\img\slider\owl3.jpg" />
+    <Content Include="Admin\img\slider\owl4.jpg" />
+    <Content Include="Admin\img\slider\owl5.jpg" />
+    <Content Include="Admin\img\slider\owl6.jpg" />
+    <Content Include="Admin\img\slider\owl7.jpg" />
+    <Content Include="Admin\img\slider\owl8.jpg" />
+    <Content Include="Admin\img\slider\slider1.jpg" />
+    <Content Include="Admin\img\slider\slider2.jpg" />
+    <Content Include="Admin\img\slider\slider3.jpg" />
+    <Content Include="Admin\img\user\index.html" />
+    <Content Include="Admin\img\user\index2a60.html" />
+    <Content Include="Admin\img\user\index38f9.html" />
+    <Content Include="Admin\img\user\index3dd6.html" />
+    <Content Include="Admin\img\user\index7dc1.html" />
+    <Content Include="Admin\img\user\index9a11.html" />
+    <Content Include="Admin\img\user\indexd4cd.html" />
+    <Content Include="Admin\img\user\user1.jpg" />
+    <Content Include="Admin\img\user\user10.jpg" />
+    <Content Include="Admin\img\user\user2.jpg" />
+    <Content Include="Admin\img\user\user3.jpg" />
+    <Content Include="Admin\img\user\user4.jpg" />
+    <Content Include="Admin\img\user\user5.jpg" />
+    <Content Include="Admin\img\user\user6.jpg" />
+    <Content Include="Admin\img\user\user7.jpg" />
+    <Content Include="Admin\img\user\user8.jpg" />
+    <Content Include="Admin\img\user\user9.jpg" />
+    <Content Include="Admin\lib\background.html" />
+    <Content Include="Admin\lib\compile_sort.html" />
+    <Content Include="Admin\lib\cube.html" />
+    <Content Include="Admin\lib\lines.html" />
+    <Content Include="Admin\lib\text.html" />
+    <Content Include="Admin\lib\thunk.html" />
+    <Content Include="Admin\lib\ticks.html" />
+    <Content Include="Admin\lib\vao-emulated.html" />
+    <Content Include="Admin\lib\vao-native.html" />
+    <Content Include="Admin\ND2\index.html" />
+    <Content Include="Admin\Nv8\index.html" />
+    <Content Include="Admin\OB1\index.html" />
+    <Content Include="Admin\polytope-closest-point\lib\closest_point_2d.html" />
+    <Content Include="Admin\qUC\index.html" />
+    <Content Include="Admin\xl\styles.html" />
+    <Content Include="Admin\xl\workbook.html" />
+    <Content Include="Admin\xl\worksheets\sheet1.html" />
+    <Content Include="Assets\app.js" />
+    <Content Include="Assets\bundles\amcharts4\animated.js" />
+    <Content Include="Assets\bundles\amcharts4\charts.js" />
+    <Content Include="Assets\bundles\amcharts4\core.js" />
+    <Content Include="Assets\bundles\amcharts4\maps.js" />
+    <Content Include="Assets\bundles\amcharts4\worldLow.js" />
+    <Content Include="Assets\bundles\apexcharts\apexcharts.min.js" />
+    <Content Include="Assets\bundles\bootstrap-colorpicker\css\bootstrap-colorpicker.css" />
+    <Content Include="Assets\bundles\bootstrap-colorpicker\img\bootstrap-colorpicker\alpha.png" />
+    <Content Include="Assets\bundles\bootstrap-colorpicker\img\bootstrap-colorpicker\hue.png" />
+    <Content Include="Assets\bundles\bootstrap-colorpicker\img\bootstrap-colorpicker\saturation.png" />
+    <Content Include="Assets\bundles\bootstrap-colorpicker\js\bootstrap-colorpicker-init.js" />
+    <Content Include="Assets\bundles\bootstrap-colorpicker\js\bootstrap-colorpicker.js" />
+    <Content Include="Assets\bundles\bootstrap-datepicker\js\bootstrap-datepicker.min.html" />
+    <Content Include="Assets\bundles\bootstrap-datetimepicker\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="Assets\bundles\bootstrap-datetimepicker\js\bootstrap-datetimepicker.js" />
+    <Content Include="Assets\bundles\bootstrap-editable\bootstrap-editable\img\clear.png" />
+    <Content Include="Assets\bundles\bootstrap-editable\bootstrap-editable\img\loading.gif" />
+    <Content Include="Assets\bundles\bootstrap-editable\inputs-ext\address\address.css" />
+    <Content Include="Assets\bundles\bootstrap-inputmask\bootstrap-inputmask.min.js" />
+    <Content Include="Assets\bundles\bootstrap-switch\js\bootstrap-switch.min.js" />
+    <Content Include="Assets\bundles\bootstrap-tabdrop\js\bootstrap-tabdrop.js" />
+    <Content Include="Assets\bundles\bootstrap-treeview\bootstrap-treeview.js" />
+    <Content Include="Assets\bundles\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Assets\bundles\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Assets\bundles\chart-js\Chart.min.js" />
+    <Content Include="Assets\bundles\chart-js\utils.js" />
+    <Content Include="Assets\bundles\counterup\jquery.counterup.min.js" />
+    <Content Include="Assets\bundles\counterup\jquery.waypoints.min.js" />
+    <Content Include="Assets\bundles\datatables\export\buttons.dataTables.min.css" />
+    <Content Include="Assets\bundles\datatables\export\buttons.flash.min.js" />
+    <Content Include="Assets\bundles\datatables\export\buttons.html5.min.js" />
+    <Content Include="Assets\bundles\datatables\export\buttons.print.min.js" />
+    <Content Include="Assets\bundles\datatables\export\dataTables.buttons.min.js" />
+    <Content Include="Assets\bundles\datatables\export\jszip.min.js" />
+    <Content Include="Assets\bundles\datatables\export\pdfmake.min.js" />
+    <Content Include="Assets\bundles\datatables\export\vfs_fonts.js" />
+    <Content Include="Assets\bundles\datatables\jquery.dataTables.min.js" />
+    <Content Include="Assets\bundles\datatables\plugins\bootstrap\dataTables.bootstrap5.min.css" />
+    <Content Include="Assets\bundles\datatables\plugins\bootstrap\dataTables.bootstrap5.min.js" />
+    <Content Include="Assets\bundles\dropzone\dropzone-call.js" />
+    <Content Include="Assets\bundles\dropzone\dropzone.css" />
+    <Content Include="Assets\bundles\dropzone\dropzone.js" />
+    <Content Include="Assets\bundles\echarts\echarts.js" />
+    <Content Include="Assets\bundles\feather\feather.min.js" />
+    <Content Include="Assets\bundles\flatpicker\css\flatpickr.min.css" />
+    <Content Include="Assets\bundles\flatpicker\js\flatpicker.min.js" />
+    <Content Include="Assets\bundles\float\jquery.flot.js" />
+    <Content Include="Assets\bundles\float\jquery.flot.resize.min.js" />
+    <Content Include="Assets\bundles\fullcalendar\packages\core\main.min.css" />
+    <Content Include="Assets\bundles\fullcalendar\packages\core\main.min.js" />
+    <Content Include="Assets\bundles\fullcalendar\packages\daygrid\main.min.css" />
+    <Content Include="Assets\bundles\fullcalendar\packages\daygrid\main.min.js" />
+    <Content Include="Assets\bundles\fullcalendar\packages\interaction\main.min.js" />
+    <Content Include="Assets\bundles\fullcalendar\packages\timegrid\main.min.css" />
+    <Content Include="Assets\bundles\fullcalendar\packages\timegrid\main.min.js" />
+    <Content Include="Assets\bundles\gmaps\gmaps.min.js" />
+    <Content Include="Assets\bundles\jquery-blockUI\jquery.blockui.min.js" />
+    <Content Include="Assets\bundles\jquery-file-upload\blueimp-gallery\blueimp-gallery.min.css" />
+    <Content Include="Assets\bundles\jquery-file-upload\css\jquery.fileupload-ui.css" />
+    <Content Include="Assets\bundles\jquery-file-upload\css\jquery.fileupload.css" />
+    <Content Include="Assets\bundles\jquery-file-upload\img\error.html" />
+    <Content Include="Assets\bundles\jquery-file-upload\img\loading.gif" />
+    <Content Include="Assets\bundles\jquery-file-upload\img\play-pause.html" />
+    <Content Include="Assets\bundles\jquery-file-upload\img\progressbar.gif" />
+    <Content Include="Assets\bundles\jquery-file-upload\img\video-play.html" />
+    <Content Include="Assets\bundles\jquery-tags-input\jquery-tags-input.css" />
+    <Content Include="Assets\bundles\jquery-tags-input\jquery-tags-input.js" />
+    <Content Include="Assets\bundles\jquery-toast\dist\jquery.toast.min.css" />
+    <Content Include="Assets\bundles\jquery-toast\dist\jquery.toast.min.js" />
+    <Content Include="Assets\bundles\jquery-toast\dist\toast.js" />
+    <Content Include="Assets\bundles\jquery-ui\jquery-ui.min.js" />
+    <Content Include="Assets\bundles\jquery-validation\js\additional-methods.min.js" />
+    <Content Include="Assets\bundles\jquery-validation\js\jquery.validate.min.js" />
+    <Content Include="Assets\bundles\jquery.slimscroll\jquery.slimscroll.js" />
+    <Content Include="Assets\bundles\jquery\jquery.min.js" />
+    <Content Include="Assets\bundles\jqvmap\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="Assets\bundles\jqvmap\jquery-jvectormap.css" />
+    <Content Include="Assets\bundles\jqvmap\jquery-jvectormap.min.js" />
+    <Content Include="Assets\bundles\material\material.min.css" />
+    <Content Include="Assets\bundles\material\material.min.js" />
+    <Content Include="Assets\bundles\moment\moment.min.js" />
+    <Content Include="Assets\bundles\morris\morris.css" />
+    <Content Include="Assets\bundles\morris\morris.min.js" />
+    <Content Include="Assets\bundles\morris\raphael-min.js" />
+    <Content Include="Assets\bundles\owl-carousel\AjaxLoader.html" />
+    <Content Include="Assets\bundles\owl-carousel\grabbing.html" />
+    <Content Include="Assets\bundles\owl-carousel\owl.carousel.css" />
+    <Content Include="Assets\bundles\owl-carousel\owl.carousel.js" />
+    <Content Include="Assets\bundles\owl-carousel\owl.theme.css" />
+    <Content Include="Assets\bundles\plotyjs\plotly.min.js" />
+    <Content Include="Assets\bundles\popper\popper.js" />
+    <Content Include="Assets\bundles\select2\css\select2-bootstrap.min.css" />
+    <Content Include="Assets\bundles\select2\css\select2.css" />
+    <Content Include="Assets\bundles\select2\js\select2.js" />
+    <Content Include="Assets\bundles\sparkline\jquery.sparkline.js" />
+    <Content Include="Assets\bundles\sparkline\jquery.sparkline.min.js" />
+    <Content Include="Assets\bundles\steps\jquery.steps.js" />
+    <Content Include="Assets\bundles\steps\steps.css" />
+    <Content Include="Assets\bundles\summernote\summernote.css" />
+    <Content Include="Assets\bundles\summernote\summernote.js" />
+    <Content Include="Assets\bundles\sweet-alert\sweetalert2.all.min.js" />
+    <Content Include="Assets\bundles\sweet-alert\sweetalert2.min.css" />
+    <Content Include="Assets\bundles\sweet-alert\sweetalert2.min.js" />
+    <Content Include="Assets\css\all.min.css" />
+    <Content Include="Assets\css\bootstrap.min.css" />
+    <Content Include="Assets\css\style.css" />
+    <Content Include="Assets\data\amchart-data.js" />
+    <Content Include="Assets\data\apex-home.js" />
+    <Content Include="Assets\data\apex-home2.js" />
+    <Content Include="Assets\data\apexcharts.data.js" />
+    <Content Include="Assets\data\bootstrap-datetimepicker-init.js" />
+    <Content Include="Assets\data\calendar-data.js" />
+    <Content Include="Assets\data\chartjs-data.js" />
+    <Content Include="Assets\data\date-time.init.js" />
+    <Content Include="Assets\data\echart-data.js" />
+    <Content Include="Assets\data\float-ecg-data.js" />
+    <Content Include="Assets\data\form-validation.js" />
+    <Content Include="Assets\data\getmdl-select.js" />
+    <Content Include="Assets\data\google-maps-data.js" />
+    <Content Include="Assets\data\home3-echart-data.js" />
+    <Content Include="Assets\data\jquery-tags-input-init.js" />
+    <Content Include="Assets\data\morris-chart-data.js" />
+    <Content Include="Assets\data\owl-carousel-data.js" />
+    <Content Include="Assets\data\plotlyjs-data.js" />
+    <Content Include="Assets\data\profile-data.js" />
+    <Content Include="Assets\data\select2-data.js" />
+    <Content Include="Assets\data\sparkline-data.js" />
+    <Content Include="Assets\data\steps-data.js" />
+    <Content Include="Assets\data\summernote-data.js" />
+    <Content Include="Assets\data\sweet-alert-data.js" />
+    <Content Include="Assets\data\table-data.js" />
+    <Content Include="Assets\data\vector-data.js" />
+    <Content Include="Assets\images\about.jpg" />
+    <Content Include="Assets\images\blog\b1.jpg" />
+    <Content Include="Assets\images\blog\b2.jpg" />
+    <Content Include="Assets\images\blog\b3.jpg" />
+    <Content Include="Assets\images\fav-2.html" />
+    <Content Include="Assets\images\fav.html" />
+    <Content Include="Assets\images\icon\001.png" />
+    <Content Include="Assets\images\icon\002.png" />
+    <Content Include="Assets\images\icon\003.png" />
+    <Content Include="Assets\images\icon\004.png" />
+    <Content Include="Assets\images\icon\005.png" />
+    <Content Include="Assets\images\icon\006.png" />
+    <Content Include="Assets\images\logo.jpg" />
+    <Content Include="Assets\images\s1.jpg" />
+    <Content Include="Assets\images\s2.jpg" />
+    <Content Include="Assets\images\s3.jpg" />
+    <Content Include="Assets\images\s4.jpg" />
+    <Content Include="Assets\images\s5.jpg" />
+    <Content Include="Assets\images\s6.jpg" />
+    <Content Include="Assets\images\s7.jpg" />
+    <Content Include="Assets\images\s8.jpg" />
+    <Content Include="Assets\images\team\d1.jpg" />
+    <Content Include="Assets\images\team\d2.jpg" />
+    <Content Include="Assets\images\team\d3.jpg" />
+    <Content Include="Assets\images\team\d4.jpg" />
+    <Content Include="Assets\js\bootstrap.bundle.min.js" />
+    <Content Include="Assets\js\jquery-3.2.1.min.js" />
+    <Content Include="Assets\js\popper.min.html" />
+    <Content Include="Assets\js\script.js" />
+    <Content Include="Assets\layout.js" />
+    <Content Include="Assets\theme-color.js" />
+    <Content Include="Assets\webfonts\fa-brands-400.svg" />
+    <Content Include="Assets\webfonts\fa-regular-400.svg" />
+    <Content Include="Assets\webfonts\fa-solid-900.svg" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="singup\image\bg.jpg" />
+    <Content Include="singup\image\dhrampal.png" />
+    <Content Include="singup\image\login_iti.jpg" />
+    <Content Include="singup\image\logogaushala.png" />
+    <Content Include="singup\image\yogiji.png" />
+    <Content Include="singup\Login.aspx" />
+    <Content Include="singup\style.css" />
+    <Content Include="Users\AMC.aspx" />
+    <Content Include="Users\Home.aspx" />
+    <Content Include="Users\newproduct.aspx" />
+    <Content Include="Users\services.aspx" />
+    <Content Include="Users\Support.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="singup\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="singup\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\AMC.aspx.cs">
+      <DependentUpon>AMC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\AMC.aspx.designer.cs">
+      <DependentUpon>AMC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Users\newproduct.aspx.cs">
+      <DependentUpon>newproduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\newproduct.aspx.designer.cs">
+      <DependentUpon>newproduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\services.aspx.cs">
+      <DependentUpon>services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\services.aspx.designer.cs">
+      <DependentUpon>services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Support.aspx.cs">
+      <DependentUpon>Support.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Support.aspx.designer.cs">
+      <DependentUpon>Support.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\plugins\scroll-fixed\jquery-scrolltofixed-min.2" />
+    <Content Include="Assets\webfonts\fa-brands-400.eot" />
+    <Content Include="Assets\webfonts\fa-brands-400.ttf" />
+    <Content Include="Assets\webfonts\fa-brands-400.woff" />
+    <Content Include="Assets\webfonts\fa-brands-400.woff2" />
+    <Content Include="Assets\webfonts\fa-brands-400d41d.eot" />
+    <Content Include="Assets\webfonts\fa-regular-400.eot" />
+    <Content Include="Assets\webfonts\fa-regular-400.ttf" />
+    <Content Include="Assets\webfonts\fa-regular-400.woff" />
+    <Content Include="Assets\webfonts\fa-regular-400.woff2" />
+    <Content Include="Assets\webfonts\fa-regular-400d41d.eot" />
+    <Content Include="Assets\webfonts\fa-solid-900.eot" />
+    <Content Include="Assets\webfonts\fa-solid-900.ttf" />
+    <Content Include="Assets\webfonts\fa-solid-900.woff" />
+    <Content Include="Assets\webfonts\fa-solid-900.woff2" />
+    <Content Include="Assets\webfonts\fa-solid-900d41d.eot" />
+    <Content Include="Assets\bundles\bootstrap-colorpicker\img\bootstrap-colorpicker\alpha-horizontal.144.de" />
+    <Content Include="Assets\bundles\bootstrap-colorpicker\img\bootstrap-colorpicker\hue-horizontal.143.dela" />
+    <Content Include="Assets\bundles\bootstrap-editable\bootstrap-editable\css\bootstrap-editable.110.delaye" />
+    <Content Include="Assets\bundles\summernote\font\summernote.eot" />
+    <Content Include="Assets\bundles\summernote\font\summernote.ttf" />
+    <Content Include="Assets\bundles\summernote\font\summernote.woff" />
+    <Content Include="Assets\bundles\summernote\font\summernote.woff2" />
+    <Content Include="Assets\bundles\summernote\font\summernoted41d.eot" />
+    <Content Include="Admin\Admin.Master" />
+    <Content Include="Admin\fonts\font-awesome\fonts\fontawesome-webfont3e6e.eot" />
+    <Content Include="Admin\fonts\font-awesome\fonts\fontawesome-webfont3e6e.ttf" />
+    <Content Include="Admin\fonts\font-awesome\fonts\fontawesome-webfont3e6e.woff" />
+    <Content Include="Admin\fonts\font-awesome\fonts\fontawesome-webfont3e6e.woff2" />
+    <Content Include="Admin\fonts\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="Admin\fonts\font-awesome\v6\webfonts\fa-brands-400.ttf" />
+    <Content Include="Admin\fonts\font-awesome\v6\webfonts\fa-brands-400.woff2" />
+    <Content Include="Admin\fonts\font-awesome\v6\webfonts\fa-regular-400.ttf" />
+    <Content Include="Admin\fonts\font-awesome\v6\webfonts\fa-regular-400.woff2" />
+    <Content Include="Admin\fonts\font-awesome\v6\webfonts\fa-solid-900.ttf" />
+    <Content Include="Admin\fonts\font-awesome\v6\webfonts\fa-solid-900.woff2" />
+    <Content Include="Admin\fonts\font-awesome\v6\webfonts\fa-v4compatibility.ttf" />
+    <Content Include="Admin\fonts\font-awesome\v6\webfonts\fa-v4compatibility.woff2" />
+    <Content Include="Admin\fonts\material-design-icons\iconfont\MaterialIcons-Regular.eot" />
+    <Content Include="Admin\fonts\material-design-icons\iconfont\MaterialIcons-Regular.ttf" />
+    <Content Include="Admin\fonts\material-design-icons\iconfont\MaterialIcons-Regular.woff" />
+    <Content Include="Admin\fonts\material-design-icons\iconfont\MaterialIcons-Regular.woff2" />
+    <Content Include="Admin\fonts\simple-line-icons\fonts\Simple-Line-Iconsb26c.eot" />
+    <Content Include="Admin\fonts\simple-line-icons\fonts\Simple-Line-Iconsb26c.ttf" />
+    <Content Include="Admin\fonts\simple-line-icons\fonts\Simple-Line-Iconsb26c.woff" />
+    <Content Include="Admin\fonts\simple-line-icons\fonts\Simple-Line-Iconsb26c.woff2" />
+    <None Include="packages.config" />
+    <Content Include="Users\Main.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58297</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58297/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
