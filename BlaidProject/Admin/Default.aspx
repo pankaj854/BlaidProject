@@ -2,8 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="page-content-wrapper">
-				<div class="page-content">
+   
+				 
 					<div class="page-bar">
 						<div class="page-title-breadcrumb">
 							<div class=" pull-left">
@@ -756,11 +756,11 @@
 						</div>
 					</div>
 					<!-- end admited patient list -->
-				</div>
-			</div>
+				 
+			 
 			<!-- end page content -->
 			<!-- start chat sidebar -->
-			<div class="chat-sidebar-container" data-close-on-body-click="false">
+			<%--<div class="chat-sidebar-container" data-close-on-body-click="false">
 				<div class="chat-sidebar">
 					<ul class="nav nav-tabs">
 						<li class="nav-item">
@@ -1031,6 +1031,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>--%>
 			<!-- end chat sidebar -->
 </asp:Content>

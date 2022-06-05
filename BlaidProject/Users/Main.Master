@@ -5,148 +5,449 @@
 <html>
 <head runat="server">
     <title></title>
-     <link rel="shortcut icon" href="../Assets/images/fav.html" type="image/x-icon">
+
+      		<meta name="description" content="">
+		<!-- responsive tag -->
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- favicon -->
+		<link rel="apple-touch-icon" href="apple-touch-icon.html">
+		<link rel="shortcut icon" type="image/x-icon" href="../assets/images/fav.png">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&amp;display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="../../Assets/images/fav-2.html">
-        <link rel="stylesheet" href="../Assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../../cdn.jsdelivr.net/npm/bootstrap-icons%401.7.2/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="../Assets/css/all.min.css">
-        <link rel="stylesheet" type="text/css" href="../Assets/css/style.css" />
+		<!-- Bootstrap v4.4.1 css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+		<!-- font-awesome css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
+		<!-- Uicons Regular Rounded css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/uicons-regular-rounded.css">
+		<!-- flaticon css -->
+		<link rel="stylesheet" type="text/css" href="../assets/fonts/flaticon.css">
+		<!-- animate css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
+		<!-- owl.carousel css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/owl.carousel.css">
+		<!-- off canvas css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/off-canvas.css">
+		<!-- magnific popup css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/magnific-popup.css">
+		<!-- Main Menu css -->
+		<link rel="stylesheet" href="../assets/css/rsmenu-main.css">
+		<!-- spacing css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/rs-spacing.css">
+		<!-- style css -->
+		<link rel="stylesheet" type="text/css" href="../assets/style.css"> <!-- This stylesheet dynamically changed from style.less -->
+		<!-- responsive css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body class="home-coral-color">
     <form id="form1" runat="server">
-        <header>
-           <div class="head-row container">
-               <div class="container">
-                  <div class="row">
-                      <div class="col-md-3 logocol">
-                           <img src="../Assets/images/logo.jpg" alt="">
-                           <a class="navbar-toggler d-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                             <i class="bi bi-list"></i>
-                         </a>
-                       </div>
-                       <div id="navbarNav" class="col-md-9 d-none d-md-block infocol">
-                           <div class="row d-none d-sm-block float-end info-row">
-                               <ul>
-                                   <li><i class="far fa-envelope"></i> support@gmail.com</li>
-                                   <li><i class="fas fa-mobile-alt"></i> +91 9876543210</li>
-                               </ul>
-                           </div>
-                           <div class="nav-row ">
-                                <ul>
-                                    <li><a href="Home.aspx">Home</a></li>
-                                    <li><a href="services.aspx">Services</a></li>
-                                    <li><a href="newproduct.aspx">New Product</a></li>
-                                    <li><a href="AMC.aspx">AMC</a></li>
-                                    <li><a href="Support.aspx">Support</a></li>
-                                </ul>
-                           </div>
-                       </div>
-                  </div>
-                   
-               </div>
-           </div>
-       </header>
+        	<div class="offwrap"></div>
+
+		<!--Preloader start here-->
+	   <div id="clenia-load">
+			<div class="preload-wrap">
+	  			<img src="../assets/images/fav.png" alt="Clenia- Cleanning Services">
+			</div>
+     	</div>
+
+        <div class="main-content">
+
+            <div class="full-width-header">
+				<!--Header Start-->
+				<header id="rs-header" class="rs-header header-style3 header-home5-style header-transparent">
+					<!-- Menu Start -->
+					<div class="menu-area menu-sticky">
+						<div class="container">
+							<div class="row-table">
+							    <div class="col-cell header-logo">                                  
+							        <div class="logo-area">
+							            <a href="index.html">
+							                <img class="normal-logo" src="../assets/images/logo-coral.png" alt="logo">  
+							                <img class="sticky-logo" src="../assets/images/logo-coral2.png" alt="logo">
+							            </a>
+							        </div>
+							    </div>
+							    <div class="col-cell">
+							        <div class="rs-menu-area">
+							            <div class="main-menu">
+							                <nav class="rs-menu hidden-md">
+							                	<ul class="nav-menu">
+							                		<li class="menu-item-has-children current-menu-item">
+							                			<a href="index.html">Home</a>
+							                			<ul class="sub-menu">
+							                				<li class="menu-item-has-children current-menu-item">
+							                					<a href="#">Multipages</a>
+							                					<ul class="sub-menu">
+							                						<li><a href="index.html">Home One</a></li>
+							                						<li><a href="index2.html">Home Two</a></li>
+							                						<li><a href="index3.html">Home Three</a></li>
+							                						<li><a href="index4.html">Home Four</a></li>
+							                						<li class="active"><a href="index5.html">Home Five</a></li>
+							                					</ul> 
+							                				</li>
+							                				<li class="menu-item-has-children">
+							                					<a href="#">Onepages</a>
+							                					<ul class="sub-menu">
+							                						<li><a href="onepage1.html">Onepage One</a></li>
+							                						<li><a href="onepage2.html">Onepage Two</a></li>
+							                						<li><a href="onepage3.html">Onepage Three</a></li>
+							                						<li><a href="onepage4.html">Onepage Four</a></li>
+							                						<li><a href="onepage5.html">Onepage Five</a></li>
+							                					</ul>  
+							                				</li>
+							                			</ul>
+							                		</li>
+							                		<li class="menu-item-has-children">
+							                			<a href="#">About</a>                                                        
+							                			<ul class="sub-menu">  
+							                				<li><a href="about.html">About</a></li>
+							                				<li><a href="faqs.html">Faqs</a></li>
+							                				<li><a href="request-an-estimate.html">Reguest An Estimate</a></li>
+							                				<li><a href="expert-members.html">Expert Members</a></li>
+							                				<li><a href="single-member.html">Single Member</a></li>
+							                			</ul>
+							                		</li>
+							                		<li class="menu-item-has-children">
+							                			<a href="#">Services</a>
+							                			<ul class="sub-menu">
+							                				<li><a href="services1.html">Services 01</a></li>
+							                				<li><a href="services2.html">Services 02</a></li>
+							                				<li class="last-item menu-item-has-children">
+							                				    <a href="#">Services Details</a>
+							                				    <ul class="sub-menu">
+							                				        <li><a href="covid-19-cleaning.html">Covid-19 Cleaning</a></li>
+							                				        <li><a href="kitchen-cleaning.html">Kitchen Cleaning</a> </li>
+							                				        <li><a href="toilet-cleaning.html">Toilet Cleaning</a></li>
+							                				        <li><a href="office-cleaning.html">Office Cleaning</a></li>
+							                				        <li><a href="window-cleaning.html">Window Cleaning</a></li>
+							                				        <li><a href="carpet-cleaning.html">Carpet Cleaning</a></li>
+							                				    </ul>
+							                				</li>     
+							                			</ul>
+							                		</li>
+							                		<li class="menu-item-has-children">
+							                			<a href="#">Projects</a>                                                        
+							                			<ul class="sub-menu">  
+							                				<li><a href="projects.html">Projects</a></li>
+							                				<li><a href="projects-details.html">Projects Details</a></li>
+							                			</ul>
+							                		</li>
+							                		<li class="menu-item-has-children">
+							                			<a href="#">Blog</a>                                                        
+							                			<ul class="sub-menu">  
+							                				<li><a href="blog.html">Blog</a></li>
+							                				<li><a href="single-post.html">Single Post</a></li>
+							                			</ul>
+							                		</li>
+							                		<li>
+							                			<a href="contact.html">Contact</a>
+							                		</li>
+							                	</ul> <!-- //.nav-menu -->
+							                </nav>
+							            </div> <!-- //.main-menu -->
+							        </div>
+							    </div>
+							    <div class="col-cell">
+							        <div class="expand-btn-inner">
+							        	<ul>
+							        		<li class="sidebarmenu-search">
+							        			<a class="hidden-xs rs-search" data-bs-toggle="modal" data-bs-target="#searchModal" href="#">
+							        				<i class="fi fi-rr-search"></i>
+							        			</a>
+							        		</li>
+							        		<li class="btn-quote"><a href="#">Get an Estimate</a></li>
+							        		<li class="nav-link">
+							        			<a id="nav-expander" class="nav-expander bar" href="#">
+							        				<span class="dot-hum"></span>
+							        				<span class="dot-hum"></span>
+							        				<span class="dot-hum"></span>
+							        			</a>
+							        		</li>
+							        	</ul>
+							        </div>
+							    </div>
+							</div>
+						</div>
+					</div>
+					<!-- Menu End -->
+
+					<!-- Canvas Mobile Menu start -->
+					<nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu">
+						<div class="close-btn">
+							<a id="nav-close2" class="nav-close">
+								<div class="line">
+									<span class="line1"></span>
+									<span class="line2"></span>
+								</div>
+							</a>
+						</div>
+						<ul class="nav-menu">
+							<li class="menu-item-has-children current-menu-item">
+								<a href="index.html">Home</a>
+								<ul class="sub-menu">
+									<li class="menu-item-has-children current-menu-item">
+										<a href="#">Multipages</a>
+										<ul class="sub-menu">
+											<li><a href="index.html">Home One</a></li>
+											<li><a href="index2.html">Home Two</a></li>
+											<li><a href="index3.html">Home Three</a></li>
+											<li><a href="index4.html">Home Four</a></li>
+											<li class="active"><a href="index5.html">Home Five</a></li>
+										</ul> 
+									</li>
+									<li class="menu-item-has-children">
+										<a href="#">Onepages</a>
+										<ul class="sub-menu">
+											<li><a href="onepage1.html">Onepage One</a></li>
+											<li><a href="onepage2.html">Onepage Two</a></li>
+											<li><a href="onepage3.html">Onepage Three</a></li>
+											<li><a href="onepage4.html">Onepage Four</a></li>
+											<li><a href="onepage5.html">Onepage Five</a></li>
+										</ul>  
+									</li>
+								</ul>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">About</a>                                                        
+								<ul class="sub-menu">  
+									<li><a href="about.html">About</a></li>
+									<li><a href="faqs.html">Faqs</a></li>
+									<li><a href="request-an-estimate.html">Reguest An Estimate</a></li>
+									<li><a href="expert-members.html">Expert Members</a></li>
+									<li><a href="single-member.html">Single Member</a></li>
+								</ul>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">Services</a>
+								<ul class="sub-menu">
+									<li><a href="services1.html">Services 01</a></li>
+									<li><a href="services2.html">Services 02</a></li>
+									<li class="last-item menu-item-has-children">
+									    <a href="#">Services Details</a>
+									    <ul class="sub-menu">
+									        <li><a href="covid-19-cleaning.html">Covid-19 Cleaning</a></li>
+									        <li><a href="kitchen-cleaning.html">Kitchen Cleaning</a> </li>
+									        <li><a href="toilet-cleaning.html">Toilet Cleaning</a></li>
+									        <li><a href="office-cleaning.html">Office Cleaning</a></li>
+									        <li><a href="window-cleaning.html">Window Cleaning</a></li>
+									        <li><a href="carpet-cleaning.html">Carpet Cleaning</a></li>
+									    </ul>
+									</li>     
+								</ul>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">Projects</a>                                                        
+								<ul class="sub-menu">  
+									<li><a href="projects.html">Projects</a></li>
+									<li><a href="projects-details.html">Projects Details</a></li>
+								</ul>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">Blog</a>                                                        
+								<ul class="sub-menu">  
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="single-post.html">Single Post</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul> <!-- //.nav-menu -->
+						<div class="canvas-contact">
+							  <div class="address-area">
+								  <div class="address-list">
+									  <div class="info-icon">
+										  <i class="flaticon-location"></i>
+									  </div>
+									  <div class="info-content">
+										  <h4 class="title">Address</h4>
+										  <em>05 kandi BR. New York</em>
+									  </div>
+								  </div>
+								  <div class="address-list">
+									  <div class="info-icon">
+										  <i class="flaticon-email"></i>
+									  </div>
+									  <div class="info-content">
+										  <h4 class="title">Email</h4>
+										  <em><a href="mailto:support@reactheme.com">support@reactheme.com</a></em>
+									  </div>
+								  </div>
+								  <div class="address-list">
+									  <div class="info-icon">
+										  <i class="flaticon-call"></i>
+									  </div>
+									  <div class="info-content">
+										  <h4 class="title">Phone</h4>
+										  <em>+019988772</em>
+									  </div>
+								  </div>
+							  </div>
+						</div>
+					</nav>
+					<!-- Canvas Menu end -->                             
+				</header>
+				<!--Header End-->
+			</div>
+       
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 about">
-                <h2>About Us</h2>
-                <p>Phasellus scelerisque ornare nisl sit amet pulvinar. Nunc non scelerisque augue. Proin et sollicitudin velit. </p>
-                
-                <div class="foot-address">
-                    <div class="icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="addet">
-                        BlueDart
-                        Marthandam (K.K District)
-                        Tamil Nadu, IND 
-                    </div>
-                </div>
-                <div class="foot-address">
-                    <div class="icon">
-                        <i class="far fa-envelope-open"></i>
-                    </div>
-                    <div class="addet">
-                        info@smarteyeapps.com <br>
-                        sales@smarteyeapps.com
-                    </div>
-                </div>
-                <div class="foot-address">
-                    <div class="icon">
-                       <i class="fas fa-mobile-alt"></i>
-                   </div>
-                   <div class="addet">
-                    +23 323 43434 <br>
-                    +1 3232 434 55
-                </div>
             </div>
-        </div>
-        <div class="col-md-3 fotblog">
-            <h2>From latest Blog</h2>
-            <div class="blohjb">
-                <p>dignissim. Integer tempor facilisis malesuada. Proin ac varius velit, tincidunt condimentum</p>
-                <span>22-1-2019</span>
-            </div>
-            <div class="blohjb">
-                <p>dignissim. Integer tempor facilisis malesuada. Proin ac varius velit, tincidunt condimentum</p>
-                <span>22-1-2019</span>
-            </div>
-            <div class="blohjb">
-                <p>dignissim. Integer tempor facilisis malesuada. Proin ac varius velit, tincidunt condimentum</p>
-                <span>22-1-2019</span>
-            </div>
-        </div>
-        <div class="col-md-3 glink">
-            <ul>
-                <li><a href="Home.aspx"><i class="fas fa-angle-double-right"></i>Home</a></li>
-                <li><a href="aboutus.aspx"><i class="fas fa-angle-double-right"></i>About Us</a></li>
-                <li><a href="services.aspx"><i class="fas fa-angle-double-right"></i>Services</a></li>
-                <li><a href="blog.html"><i class="fas fa-angle-double-right"></i>Blog</a></li>
-                <li><a href="pricing.html"><i class="fas fa-angle-double-right"></i>Gallery</a></li>
-                <li><a href="contact_us.html"><i class="fas fa-angle-double-right"></i>Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3 tags">
-            <h2>Easy Tags</h2>
-            <ul>
-                <li>Finance</li>
-                <li>Web Design</li>
-                <li>Internet Pro</li>
-                <li>Node Js</li>
-                <li>Java Swing</li>
-                <li>Angular Js</li>
-                <li>Vue Js</li>
-            </ul>
-        </div>
-    </div>
-</div>
-</footer>
-<div class="copy">
-    <div class="container">
-        <a href="https://www.smarteyeapps.com/">2015 &copy; All Rights Reserved | Designed and Developed by Smarteyeapps</a>
-        <span>
-            <a><i class="fab fa-github"></i></a>
-            <a><i class="fab fa-google-plus-g"></i></a>
-            <a><i class="fab fa-pinterest-p"></i></a>
-            <a><i class="fab fa-twitter"></i></a>
-            <a><i class="fab fa-facebook-f"></i></a>
-        </span>
-    </div>
-</div>
-        
-<script src="../Assets/js/jquery-3.2.1.min.js"></script>
-<script src="../Assets/js/popper.min.html"></script>
-<script src="../Assets/js/bootstrap.bundle.min.js"></script>
-<script src="../Assets/plugins/scroll-fixed/jquery-scrolltofixed-min.2"></script>
-<script src="../Assets/js/script.js"></script>
+      <footer id="rs-footer" class="rs-footer footer-style1 footer-style5">
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-sm-12 pr-83 md-pr-15 md-mb-20">
+									<div class="footer-logo mb-30 md-mb-20">
+										<a href="index.html"><img src="../assets/images/logo-coral.png" alt=""></a>
+									</div>
+									<div class="textwidget mb-33">
+										Lorem ipsum dolor sit amet adcing consect adcing eli seddo eiusmod temporing tourincididunt 
+									</div>
+									<ul class="app-store">
+		                                <li><a href="#"><img src="../assets/images/footer/playstore.png" alt=""></a></li>
+		                                <li><a href="#"><img src="../assets/images/footer/appstore.png" alt=""></a></li>
+		                            </ul>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12 md-mb-10">
+									<h3 class="footer-title">Contact Info</h3>
+									<ul class="address-widget">
+		                                <li>
+		                                    <i class="fi fi-rr-map-marker-home"></i>
+		                                    <div class="desc">503 Old Buffalo Street<br>
+												#205 New York-3087
+											</div>
+		                                </li>
+		                                <li>
+		                                    <i class="fi fi-rr-phone-call"></i>
+		                                    <div class="desc">
+		                                       <a href="tel:(+1)123-4567890">(+1) 123-456-7890</a>
+		                                    </div>
+		                                </li>
+		                                <li>
+		                                    <i class="fi fi-rr-envelope-plus"></i>
+		                                    <div class="desc">
+		                                        <a href="mailto:infoname@gmail.com">infoname@gmail.com</a>
+		                                    </div>
+		                                </li>
+	                                    <li>
+	                                        <i class="fi fi-rr-time-add"></i>
+	                                        <div class="desc">
+	                                        	08:00am-6:00pm
+	    									</div>
+	                                    </li>
+		                            </ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12 md-mb-10 pl-90 md-pl-15">
+							<h3 class="footer-title">Subscribe to Newsletter</h3>
+							<p class="widget-desc white-color">Join our subscribers list to get the latest news and special offers</p>
+							<p>
+                                <input type="email" name="email" placeholder="Your email address" required="">
+                                <input type="submit" value="Subscribe Now">
+                            </p>
+                            <ul class="footer-social">  
+                            	<li> 
+                            		<a href="#"><i class="fa fa-facebook"></i></a>
+                            	</li>
+                            	<li> 
+                            		<a href="#"><i class="fa fa-instagram"></i></a>
+                            	</li>
+                            	<li> 
+                            		<a href="#"><i class="fa fa-twitter"></i></a> 
+                            	</li>
+
+                            	<li> 
+                            		<a href="#"><i class="fa fa-linkedin"></i></a>
+                            	</li>
+                            </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">                    
+					<div class="row y-middle">
+						<div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
+							<ul class="copy-right-menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="contact.html">contact</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-6">
+							<div class="copyright text-lg-start text-center ">
+								<p>Copyright © 2022 Clenia. Designed By <a href="https://devsdesign.net/"> Devsdesign</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer End -->
+
+		<!-- start scrollUp  -->
+		<div id="scrollUp" class="orange-color">
+			<i class="fi fi-rr-arrow-small-up"></i>
+		</div>
+		<!-- End scrollUp  -->
+
+
+		<!-- Search Modal Start -->
+		<div class="modal fade search-modal" id="searchModal" tabindex="-1">
+			<button type="button" class="close" data-bs-dismiss="modal">
+				<i class="fi fi-rr-cross-small"></i>
+			</button>
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="search-block clearfix">
+						<form>
+							<div class="form-group">
+								<input class="form-control" placeholder="Searching..." type="text">
+								<button type="submit" value="Search"><i class="fi fi-rr-search"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Search Modal End -->
+
+		<!-- modernizr js -->
+		<script src="../assets/js/modernizr-2.8.3.min.js"></script>
+		<!-- jquery latest version -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<!-- Bootstrap v4.4.1 js -->
+		<script src="../assets/js/bootstrap.min.js"></script>
+		<!-- op nav js -->
+		<script src="../assets/js/jquery.nav.js"></script>
+		<!-- owl.carousel js -->
+		<script src="../assets/js/owl.carousel.min.js"></script>
+		<!-- wow js -->
+		<script src="../assets/js/wow.min.js"></script>
+		<!-- Skill bar js -->
+		<script src="../assets/js/skill.bars.jquery.js"></script>
+		<!-- imagesloaded js -->
+		<script src="../assets/js/imagesloaded.pkgd.min.js"></script>
+		 <!-- waypoints.min js -->
+		<script src="../assets/js/waypoints.min.js"></script>
+		<!-- counterup.min js -->
+		<script src="../assets/js/jquery.counterup.min.js"></script>
+		<!-- magnific popup js -->
+		<script src="../assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- contact form js -->
+		<script src="../assets/js/contact.form.js"></script>
+		<!-- main js -->
+		<script src="../assets/js/main.js"></script>
     </form>
 </body>
 </html>

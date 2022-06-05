@@ -15,12 +15,13 @@
 
         <div class="contain">
             <div class="form">
-                <center>
+                <%--<center>
                     <h2 style="margin-bottom: 15px;">User Login</h2>
-                </center>
+                </center>--%>
                 <div class="dddd">
                     <center>
-                        <h2>BLAID</h2>
+                        <img src="../Assets/logo.png" style="width:100%;"/>
+                        
                     </center>
                     <div>
                         <form runat="server">
