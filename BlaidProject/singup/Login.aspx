@@ -6,7 +6,7 @@
 <head runat="server">
     <title>Blaid</title>
     <link href="style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
@@ -20,7 +20,7 @@
                 </center>--%>
                 <div class="dddd">
                     <center>
-                        <img src="../Assets/logo.png" style="width:100%;"/>
+                        <img src="../Assets/prelogo.png" style="width:60%;"/>
                         
                     </center>
                     <div>

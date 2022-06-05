@@ -33,8 +33,188 @@
 					</div>
 				</div>
 			</div>
+
+	<div class="rs-services services-style1 services-inner-style1 pt-120 pb-120 md-pt-80 md-pb-80">
+				<div class="container">
+						<div class="sec-title4 mb-40 text-center">
+						<div class="title-img"> 
+							<img src="../assets/images/sub-line.png" alt="">
+						</div>
+						<span class="sub-text"> Our Services</span>
+						<h2 class="title">
+							Expert Medical Instrument Service<br> You Can Trust
+						</h2>
+					</div>
+					<div class="row y-middle">
+						<div class="col-lg-3 col-md-6 mb-30">
+							<div class="services-item">
+								<div class="services-images">
+									<img class="main-img" src="../assets/images/services/main-home/main-img/1.jpg" alt="">
+									<div class="services-icon">
+										<img class="main-icons" src="../assets/images/services/main-home/main-icons/1.png" alt="">
+									</div>
+								</div>
+								<div class="services-text">
+									<div class="services-title">                            
+										<h3 class="title"><a href="covid-19-cleaning.html">Machine Devices</a></h3>
+									</div>
+									<p class="services-txt">Quisque placerat vitae lacus ut sceleris in Fusce luctus odio ac nibtech.</p>
+									<div class="services-btn">
+										<a href="covid-19-cleaning.html">
+											<span class="btn-text">
+												Read More                           
+											</span>
+											<i class="fi fi-rr-arrow-small-right"></i>
+										</a> 
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-30">
+							<div class="services-item">
+								<div class="services-images">
+									<img class="main-img" src="../assets/images/services/main-home/main-img/2.jpg" alt="">
+									<div class="services-icon">
+										<img class="main-icons" src="../assets/images/services/main-home/main-icons/2.png" alt="">
+									</div>
+								</div>
+								<div class="services-text">
+									<div class="services-title">                            
+										<h3 class="title"><a href="kitchen-cleaning.html">Instrument</a></h3>
+									</div>
+									<p class="services-txt">Quisque placerat vitae lacus ut sceleris in Fusce luctus odio ac nibtech.</p>
+									<div class="services-btn">
+										<a href="kitchen-cleaning.html">
+											<span class="btn-text">
+												Read More                           
+											</span>
+											<i class="fi fi-rr-arrow-small-right"></i>
+										</a> 
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-30">
+							<div class="services-item">
+								<div class="services-images">
+									<img class="main-img" src="../assets/images/services/main-home/main-img/3.jpg" alt="">
+									<div class="services-icon">
+										<img class="main-icons" src="../assets/images/services/main-home/main-icons/3.png" alt="">
+									</div>
+								</div>
+								<div class="services-text">
+									<div class="services-title">                            
+										<h3 class="title"><a href="toilet-cleaning.html">Hospital Furniture</a></h3>
+									</div>
+									<p class="services-txt">Quisque placerat vitae lacus ut sceleris in Fusce luctus odio ac nibtech.</p>
+									<div class="services-btn">
+										<a href="toilet-cleaning.html">
+											<span class="btn-text">
+												Read More                           
+											</span>
+											<i class="fi fi-rr-arrow-small-right"></i>
+										</a> 
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-30">
+							<div class="services-item">
+								<div class="services-images">
+									<img class="main-img" src="../assets/images/services/main-home/main-img/4.jpg" alt="">
+									<div class="services-icon">
+										<img class="main-icons" src="../assets/images/services/main-home/main-icons/4.png" alt="">
+									</div>
+								</div>
+								<div class="services-text">
+									<div class="services-title">                            
+										<h3 class="title"><a href="office-cleaning.html">OT Light</a></h3>
+									</div>
+									<p class="services-txt">Quisque placerat vitae lacus ut sceleris in Fusce luctus odio ac nibtech.</p>
+									<div class="services-btn">
+										<a href="office-cleaning.html">
+											<span class="btn-text">
+												Read More                           
+											</span>
+											<i class="fi fi-rr-arrow-small-right"></i>
+										</a> 
+									</div>
+								</div>
+							</div>
+						</div>
+						 
+						 
+					</div>
+				</div>
+			</div>
 			<!-- Banner Section End -->
-		   
+		   <div id="rs-about" class="rs-about style2 pt-125 pb-130 md-pt-85 md-pb-80">
+				<div class="container">
+					<div class="row y-middle">
+						<div class="col-lg-6 md-mb-50">
+						   <div class="about-images">
+							   <img src="../assets/images/about/style2/about.png" alt="images">
+							   <div class="about-animation">
+							   		<div class="animation dot-img">
+							   			<img class="veritcal" src="../assets/images/about/style2/dot.png" alt="Images">
+							   		</div>
+							   		<div class="animation cleaning-img">
+							   			<img class="scale" src="../assets/images/about/style2/cleaning.png" alt="Images">
+							   		</div>
+							   </div>
+							   	<div class="rs-animate-ab2 wow fadeInLeft new">
+								   	<div class="rs-pie-content">
+								   		<div class="rs-pie" data-percent="90" data-scale-color="#ffb400"><span>90%</span></div>
+			                           	<div class="number">Customars <br>Satisfy</div>
+								   	</div>
+							   	</div>
+						   </div>
+						</div>
+						<div class="col-lg-6">
+							<div class="sec-title2 mb-40">
+								<div class="sec-title4 mb-40 ">
+						<div class="title-img"> 
+							<img src="../assets/images/sub-line.png" alt="">
+						</div>
+						<span class="sub-text"> About Us</span>
+						 
+					</div>
+								<%--<div class="brush-content mb-20">
+									<img src="../assets/images/brush.png" alt="">
+									<span class="sub-text">About company</span>
+								</div>--%>
+								<h2 class="title pb-35">
+									Clenio World Leading
+									Cleaning Agency
+								</h2>
+								<div class="desc">
+									Nor is there anyone who loves or pursues or desires itself, because
+									is pain, but occasionally. home cleaning service options and continue
+									by example, leaving other cleaning companies
+								</div>
+							</div>
+							<div class="services-item mb-25">
+								<div class="services-icon">
+									<img src="../assets/images/about/style2/icons/1.png" alt="logo">
+								</div>
+								<div class="services-content">
+									<h3 class="title">Residential Cleaning </h3>
+									<p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing home cleaning offer similar services.</p>
+								</div>
+							</div>
+							<div class="services-item">
+								<div class="services-icon">
+									<img src="../assets/images/about/style2/icons/2.png" alt="logo">
+								</div>
+								<div class="services-content">
+									<h3 class="title">Commercial Cleaning </h3>
+									<p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing home cleaning offer similar services.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<!-- About Section Start -->
 			<div class="rs-about style1 pt-120 pb-120 md-pt-80 md-pb-80">
 				<div class="container">

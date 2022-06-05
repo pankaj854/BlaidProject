@@ -70,6 +70,10 @@
     <Content Include="Admin\0v9\index.html" />
     <Content Include="Admin\7bL\index.html" />
     <Content Include="Admin\ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\index.html" />
+    <Content Include="Admin\bookedservice.aspx" />
+    <Content Include="Admin\cancleservice.aspx" />
+    <Content Include="Admin\completerequirment.aspx" />
+    <Content Include="Admin\completeservice.aspx" />
     <Content Include="Admin\css\extra_pages.css" />
     <Content Include="Admin\css\formlayout.css" />
     <Content Include="Admin\css\fullcalendar.css" />
@@ -479,6 +483,7 @@
     <Content Include="Admin\lib\vao-emulated.html" />
     <Content Include="Admin\lib\vao-native.html" />
     <Content Include="Admin\ND2\index.html" />
+    <Content Include="Admin\newrequirment.aspx" />
     <Content Include="Admin\Nv8\index.html" />
     <Content Include="Admin\OB1\index.html" />
     <Content Include="Admin\polytope-closest-point\lib\closest_point_2d.html" />
@@ -486,6 +491,7 @@
     <Content Include="Admin\xl\styles.html" />
     <Content Include="Admin\xl\workbook.html" />
     <Content Include="Admin\xl\worksheets\sheet1.html" />
+    <Content Include="assets\app.js" />
     <Content Include="assets\bundles\amcharts4\animated.js" />
     <Content Include="assets\bundles\amcharts4\charts.js" />
     <Content Include="assets\bundles\amcharts4\core.js" />
@@ -600,6 +606,32 @@
     <Content Include="assets\css\rs-spacing.css" />
     <Content Include="assets\css\rsmenu-main.css" />
     <Content Include="assets\css\uicons-regular-rounded.css" />
+    <Content Include="assets\data\amchart-data.js" />
+    <Content Include="assets\data\apex-home.js" />
+    <Content Include="assets\data\apex-home2.js" />
+    <Content Include="assets\data\apexcharts.data.js" />
+    <Content Include="assets\data\bootstrap-datetimepicker-init.js" />
+    <Content Include="assets\data\calendar-data.js" />
+    <Content Include="assets\data\chartjs-data.js" />
+    <Content Include="assets\data\date-time.init.js" />
+    <Content Include="assets\data\echart-data.js" />
+    <Content Include="assets\data\float-ecg-data.js" />
+    <Content Include="assets\data\form-validation.js" />
+    <Content Include="assets\data\getmdl-select.js" />
+    <Content Include="assets\data\google-maps-data.js" />
+    <Content Include="assets\data\home3-echart-data.js" />
+    <Content Include="assets\data\jquery-tags-input-init.js" />
+    <Content Include="assets\data\morris-chart-data.js" />
+    <Content Include="assets\data\owl-carousel-data.js" />
+    <Content Include="assets\data\plotlyjs-data.js" />
+    <Content Include="assets\data\profile-data.js" />
+    <Content Include="assets\data\select2-data.js" />
+    <Content Include="assets\data\sparkline-data.js" />
+    <Content Include="assets\data\steps-data.js" />
+    <Content Include="assets\data\summernote-data.js" />
+    <Content Include="assets\data\sweet-alert-data.js" />
+    <Content Include="assets\data\table-data.js" />
+    <Content Include="assets\data\vector-data.js" />
     <Content Include="assets\fonts\flaticon.css" />
     <Content Include="assets\fonts\Flaticon.svg" />
     <Content Include="assets\fonts\fontawesome-webfont3e6e.svg" />
@@ -865,7 +897,9 @@
     <Content Include="assets\js\skill.bars.jquery.js" />
     <Content Include="assets\js\waypoints.min.js" />
     <Content Include="assets\js\wow.min.js" />
+    <Content Include="assets\layout.js" />
     <Content Include="assets\style.css" />
+    <Content Include="assets\theme-color.js" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="singup\image\bg.jpg" />
@@ -875,10 +909,12 @@
     <Content Include="singup\image\yogiji.png" />
     <Content Include="singup\Login.aspx" />
     <Content Include="singup\style.css" />
+    <Content Include="style.css" />
     <Content Include="Users\AMC.aspx" />
     <Content Include="Users\Home.aspx" />
     <Content Include="Users\newproduct.aspx" />
     <Content Include="Users\services.aspx" />
+    <Content Include="Users\signup.aspx" />
     <Content Include="Users\Support.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -889,6 +925,34 @@
     </Compile>
     <Compile Include="Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\bookedservice.aspx.cs">
+      <DependentUpon>bookedservice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\bookedservice.aspx.designer.cs">
+      <DependentUpon>bookedservice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\cancleservice.aspx.cs">
+      <DependentUpon>cancleservice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\cancleservice.aspx.designer.cs">
+      <DependentUpon>cancleservice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\completerequirment.aspx.cs">
+      <DependentUpon>completerequirment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\completerequirment.aspx.designer.cs">
+      <DependentUpon>completerequirment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\completeservice.aspx.cs">
+      <DependentUpon>completeservice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\completeservice.aspx.designer.cs">
+      <DependentUpon>completeservice.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -903,6 +967,13 @@
     </Compile>
     <Compile Include="Admin\form.aspx.designer.cs">
       <DependentUpon>form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\newrequirment.aspx.cs">
+      <DependentUpon>newrequirment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\newrequirment.aspx.designer.cs">
+      <DependentUpon>newrequirment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -956,6 +1027,13 @@
     </Compile>
     <Compile Include="Users\services.aspx.designer.cs">
       <DependentUpon>services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\signup.aspx.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\signup.aspx.designer.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
     </Compile>
     <Compile Include="Users\Support.aspx.cs">
       <DependentUpon>Support.aspx</DependentUpon>

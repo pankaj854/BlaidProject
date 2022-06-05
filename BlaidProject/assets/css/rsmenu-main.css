@@ -164,7 +164,7 @@ body .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li
 	position: absolute;
 	top: 100%;
 	width: 100%;
-	background-color: #111111; 
+	background-color: #fff; 
 }
 .rs-menu ul ul.visible, .rs-menu ul .rs-mega-menu ul.visible ul.sub-menu {	
 	display:block;
