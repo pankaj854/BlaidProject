@@ -24,38 +24,28 @@
 							<div class="card card-box">
 								<div class="card-head">
 									<header>Form  </header>
-									<button id="panel-button3"
-										class="mdl-button mdl-js-button mdl-button--icon pull-right"
-										data-upgraded=",MaterialButton">
-										<i class="material-icons">more_vert</i>
-									</button>
-									<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-										data-mdl-for="panel-button3">
-										<li class="mdl-menu__item"><i class="material-icons">assistant_photo</i>Action
-										</li>
-										<li class="mdl-menu__item"><i class="material-icons">print</i>Another action
-										</li>
-										<li class="mdl-menu__item"><i class="material-icons">favorite</i>Something else
-											here</li>
-									</ul>
+									 
 								</div>
 								<div class="card-body " id="bar-parent2">
 									<div class="row">
 										<div class="col-md-6 col-sm-6">
-											<!-- text input -->
 											<div class="form-group">
 												<label>Category Name</label>
-												<input type="text" class="form-control" placeholder="Enter Category Name ...">
+												<asp:TextBox ID="txt_name" CssClass="form-control" placeholder="Enter Category Name ..." runat="server"></asp:TextBox>
+												<asp:RequiredFieldValidator ID="rfvtxt_name" ControlToValidate="txt_name" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+
 											</div>
-											<%--<div class="form-group">
-												<label>Sub Category Name</label>
-												<input type="text" class="form-control" placeholder="Enter ...">
-												<%--<input type="text" class="form-control" placeholder="Enter ..."
-													disabled>
-											</div>--%>
+										 
 											<div class="form-group">
 												<label>Sub of Sub Category Name</label>
-												<input type="text" class="form-control" placeholder="Enter Sub of Sub Category Name ...">
+												<asp:TextBox ID="TextBox1" CssClass="form-control" placeholder="Enter Sub of Sub Category Name ..." runat="server"></asp:TextBox>
+
+											</div>
+
+												<div class="form-group">
+												<label>Category Details</label>
+												<textarea class="form-control" rows="3"
+													placeholder="Enter Category Details ..."></textarea>
 											</div>
 											<!-- checkbox -->
 										<%--	<div class="form-group">
@@ -168,16 +158,18 @@
 													<option>option 5</option>
 												</select>
 											</div>--%>
-										</div>
-
-										<div class="col-md-12 col-sm-12">
 											<div class="form-group">
 												<label>File Upload</label>
 												<div class="card-body" id="bar-parent">
 												<input type="file"  class="dropzone form-horizontal" placeholder="Enter Sub of Sub Category Name ...">
 													</div>
+
+
+												 
 											</div>
 										</div>
+
+										 
 									</div>
 								</div>
 							</div>
