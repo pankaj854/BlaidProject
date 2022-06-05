@@ -228,7 +228,7 @@ h6 {
   background: #f2f8fb;
 }
 .blue-bg {
-  background-color: #01539f !important;
+    background-color: #00483a !important;
 }
 .yellow-bg {
   background: #ffd600;
@@ -1140,19 +1140,19 @@ blockquote:before {
 .services-btn a .btn-text {
   float: left;
 }
-.services-btn a i {
-  background: #ffd600;
-  display: inline-block;
-  text-align: center;
-  padding: 0;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  transform: translateX(5px);
-  margin-left: 5px;
-  transition: all .5s ease;
-}
+    .services-btn a i {
+        background: #01493b;
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        transform: translateX(5px);
+        margin-left: 5px;
+        transition: all .5s ease;
+    }
 .services-btn a i:before {
   font-size: 20px;
   color: #01539F;
@@ -4892,18 +4892,18 @@ Video CSS
   height: auto;
   transition: all 0.5s;
 }
-.rs-services.services-style1 .services-item .services-images .services-icon {
-  background: #ffd600;
-  right: 12px;
-  bottom: 12px;
-  position: absolute;
-  transition: 0.5s;
-  border-radius: 8px;
-  width: 85px;
-  height: 85px;
-  text-align: center;
-  line-height: 78px;
-}
+    .rs-services.services-style1 .services-item .services-images .services-icon {
+        background: #ff7033;
+        right: 12px;
+        bottom: 12px;
+        position: absolute;
+        transition: 0.5s;
+        border-radius: 8px;
+        width: 85px;
+        height: 85px;
+        text-align: center;
+        line-height: 78px;
+    }
 .rs-services.services-style1 .services-item .services-images .services-icon .main-icons {
   max-width: 50px;
   width: 100%;
@@ -4929,7 +4929,7 @@ Video CSS
   margin: 0 0 20px;
 }
 .rs-services.services-style1 .services-item .services-text .services-btn a i:before {
-  color: #0a0a0a;
+  color: #fff;
 }
 .rs-services.services-style1 .services-item .services-text .services-btn a:hover {
   color: #007cfb;

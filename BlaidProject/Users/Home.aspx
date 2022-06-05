@@ -216,244 +216,12 @@
 				</div>
 			</div>
 			<!-- About Section Start -->
-			<div class="rs-about style1 pt-120 pb-120 md-pt-80 md-pb-80">
-				<div class="container">
-					<div class="row no-gutters">
-						<div class="col-lg-6">
-							<div class="about-img">
-								<img src="../assets/images/about/about-5.png" alt="About">
-							</div>
-						</div>
-						<div class="col-lg-6 pr-71 md-pr-15">
-							<div class="sec-title4 mb-40">
-								<div class="title-img"> 
-									<img src="../assets/images/sub-line.png" alt="">
-								</div>
-								<span class="sub-text">Who We Are</span>
-								<h2 class="title pb-25">
-									We Are National Leader In The Cleaning Industry
-								</h2>
-								<div class="description">
-				            		<p>Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur toil and pain can procure great pleasure.</p>            		
-				            	</div>
-							</div>
-					        <!-- Services Start -->
-					        <div class="rs-services services-style8">
-	                          	<div class="row hover-effect">
-	                          		<div class="col-lg-6 md-mb-30">
-	                          			<div class="services-item active">
-	                                        <div class="services-wrap">
-	                                            <div class="services-icon">
-	                                              <img src="../assets/images/services/style5/home5/1.png" alt="">
-	                                            </div>
-	                                            <div class="services-content">
-	                                                <div class="services-title"><h4 class="title">Residential Cleaning</h4></div>
-	                                                <p class="services-txt">we are always ensure to our best for our customer.</p>
-	                                            </div>
-	                                        </div>
-	                          			</div>
-	                          		</div>
-	                          		<div class="col-lg-6">
-	                          			<div class="services-item">
-	            	                       <div class="services-wrap">
-	                                            <div class="services-icon">
-	                                               <img src="../assets/images/services/style5/home5/2.png" alt="">
-	                                            </div>
-	                                            <div class="services-content">
-	                                                <div class="services-title"><h4 class="title">Residential Cleaning</h4></div>
-	                                                <p class="services-txt">we are always ensure to our best for our customer.</p>
-	                                            </div> 
-	                                       </div>
-	                          			</div>
-	                          		</div>
-	                          	</div>
-					        </div>
-					        <!-- Services End -->
-						</div>
-					</div>
-				</div>
-			</div>
+			 
 			<!-- About Section End -->
-		   
-			<!-- Services Section Start -->
-			<div id="rs-services" class="rs-services services-style9 pt-85 pb-114 gray-bg4 md-pt-40 md-pb-80">
+		   <div class="rs-counter counter-style blue-bg pt-120 pb-120 md-pt-80 md-pb-80">
 				<div class="container">
-					<div class="sec-title4 mb-40 text-center">
-						<div class="title-img"> 
-							<img src="../assets/images/sub-line.png" alt="">
-						</div>
-						<span class="sub-text"> Our Services</span>
-						<h2 class="title">
-							Expert Cleaning Service<br> You Can Trust
-						</h2>
-					</div>
-					<div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
-						<div class="services-slider">
-							<div class="services-img">
-								<a href="#"><img src="../assets/images/services/services-slide/1.png" title="Covid-19 Cleaning" alt="Services"></a>
-							</div>
-							<div class="services-content-inner">
-								<div class="service-icon">
-									<a href="#"><img src="../assets/images/services/services-slide/icons/1.png" alt="Services"></a>
-								</div>
-								<div class="service-details">
-									<h3 class="service-title">
-										<a href="#">Covid-19 Cleaning</a>
-									</h3>
-									<div class="service-desc">
-									    <ul class="service-list">
-											<li>2 Bedrooms cleaning</li>
-											<li>2 Bathroom cleaning</li>
-											<li>Window cleaning</li>
-											<li>Floor cleaning </li>
-										</ul>                                                    
-									</div>
-									<div class="services-btn2">
-										<a href="#"><i class="flaticon-right-arrow"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="services-slider">
-							<div class="services-img">
-								<a href="#"><img src="../assets/images/services/services-slide/1.png" title="House Cleaning" alt="Services"></a>
-							</div>
-							<div class="services-content-inner">
-								<div class="service-icon">
-									<a href="#"><img src="../assets/images/services/services-slide/icons/1.png" alt="Services"></a>
-								</div>
-								<div class="service-details">
-									<h3 class="service-title">
-										<a href="#">House Cleaning</a>
-									</h3>
-									<div class="service-desc">
-									    <ul class="service-list">
-											<li>2 Bedrooms cleaning</li>
-											<li>2 Bathroom cleaning</li>
-											<li>Window cleaning</li>
-											<li>Floor cleaning </li>
-										</ul>                                                    
-									</div>
-									<div class="services-btn2">
-										<a href="#"><i class="flaticon-right-arrow"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="services-slider">
-							<div class="services-img">
-								<a href="#"><img src="../assets/images/services/services-slide/1.png" title="Kitchen Cleaning" alt="Services"></a>
-							</div>
-							<div class="services-content-inner">
-								<div class="service-icon">
-									<a href="#"><img src="../assets/images/services/services-slide/icons/1.png" alt="Services"></a>
-								</div>
-								<div class="service-details">
-									<h3 class="service-title">
-										<a href="#">Kitchen Cleaning</a>
-									</h3>
-									<div class="service-desc">
-									    <ul class="service-list">
-											<li>2 Bedrooms cleaning</li>
-											<li>2 Bathroom cleaning</li>
-											<li>Window cleaning</li>
-											<li>Floor cleaning </li>
-										</ul>                                                    
-									</div>
-									<div class="services-btn2">
-										<a href="#"><i class="flaticon-right-arrow"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="services-slider">
-							<div class="services-img">
-								<a href="#"><img src="../assets/images/services/services-slide/1.png" title="Office Cleaning" alt="Services"></a>
-							</div>
-							<div class="services-content-inner">
-								<div class="service-icon">
-									<a href="#"><img src="../assets/images/services/services-slide/icons/1.png" alt="Services"></a>
-								</div>
-								<div class="service-details">
-									<h3 class="service-title">
-										<a href="#">Office Cleaning</a>
-									</h3>
-									<div class="service-desc">
-									    <ul class="service-list">
-											<li>2 Bedrooms cleaning</li>
-											<li>2 Bathroom cleaning</li>
-											<li>Window cleaning</li>
-											<li>Floor cleaning </li>
-										</ul>                                                    
-									</div>
-									<div class="services-btn2">
-										<a href="#"><i class="flaticon-right-arrow"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="services-slider">
-							<div class="services-img">
-								<a href="#"><img src="../assets/images/services/services-slide/1.png" title="Window Cleaning" alt="Services"></a>
-							</div>
-							<div class="services-content-inner">
-								<div class="service-icon">
-									<a href="#"><img src="../assets/images/services/services-slide/icons/1.png" alt="Services"></a>
-								</div>
-								<div class="service-details">
-									<h3 class="service-title">
-										<a href="#">Window Cleaning</a>
-									</h3>
-									<div class="service-desc">
-									    <ul class="service-list">
-											<li>2 Bedrooms cleaning</li>
-											<li>2 Bathroom cleaning</li>
-											<li>Window cleaning</li>
-											<li>Floor cleaning </li>
-										</ul>                                                    
-									</div>
-									<div class="services-btn2">
-										<a href="#"><i class="flaticon-right-arrow"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="services-slider">
-							<div class="services-img">
-								<a href="#"><img src="../assets/images/services/services-slide/1.png" title="Carpet Cleaning" alt="Services"></a>
-							</div>
-							<div class="services-content-inner">
-								<div class="service-icon">
-									<a href="#"><img src="../assets/images/services/services-slide/icons/1.png" alt="Services"></a>
-								</div>
-								<div class="service-details">
-									<h3 class="service-title">
-										<a href="#">Carpet Cleaning</a>
-									</h3>
-									<div class="service-desc">
-									    <ul class="service-list">
-											<li>2 Bedrooms cleaning</li>
-											<li>2 Bathroom cleaning</li>
-											<li>Window cleaning</li>
-											<li>Floor cleaning </li>
-										</ul>                                                    
-									</div>
-									<div class="services-btn2">
-										<a href="#"><i class="flaticon-right-arrow"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Services Section End -->
-
-			<!-- Counter Section Start -->
-			<div class="rs-counter counter-style counter-home3 counter-home5 bg15 pt-100 pb-95 md-pt-80 md-pb-75">
-				<div class="container custom2">
 					<div class="row">
-						<div class="col-lg-4 md-mb-30">
+						<div class="col-lg-4 md-mb-40">
 							<div class="rs-counter-list">
 								<div class="counter-text">
 									<div class="counter-icon">
@@ -467,16 +235,16 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 md-mb-30">
+						<div class="col-lg-4 md-mb-40">
 							<div class="rs-counter-list">
 								<div class="counter-text">
 									<div class="counter-icon">
 										<img src="../assets/images/counter/icons/home5/2.png" alt="Icons">
 									</div>
 									<div class="counter-number">
-	                                    <span class="rs-count">20000</span>
+	                                    <span class="rs-count">200000</span>
 	                                    <span class="prefix">+</span>
-	                                    <h5 class="title">Order Served</h5>
+	                                    <h5 class="title"> Order Served</h5>
 	                                </div>
 								</div>
 							</div>
@@ -488,7 +256,7 @@
 										<img src="../assets/images/counter/icons/home5/3.png" alt="Icons">
 									</div>
 									<div class="counter-number">
-	                                    <span class="rs-count">30000</span>
+	                                    <span class="rs-count">100000</span>
 	                                    <span class="prefix">+</span>
 	                                    <h5 class="title">5 Star Received</h5>
 	                                </div>
@@ -497,9 +265,29 @@
 						</div>
 					</div>
 				</div>
+				<div class="counter-animation">
+					<div class="animate-ball one">
+						<img class="scale" src="../assets/images/ball.png" alt="Images">
+					</div>
+					<div class="animate-ball two">
+						<img class="rotated-style2" src="../assets/images/ball.png" alt="Images">
+					</div>
+					<div class="animate-ball three">
+						<img class="rotated-style2" src="../assets/images/ball.png" alt="Images">
+					</div>
+					<div class="animate-ball four">
+						<img class="scale" src="../assets/images/ball.png" alt="Images">
+					</div>
+					<div class="animate-ball five">
+						<img class="rotated-style2" src="../assets/images/ball.png" alt="Images">
+					</div>
+					<div class="animate-ball six">
+						<img class="scale" src="../assets/images/ball.png" alt="Images">
+					</div>
+				</div>
 			</div>
-			<!-- Counter Section End -->
-
+			<!-- Services Section Start -->
+			 
 			<!-- Why Choose Start -->
 			<div class="rs-choose choose-style5 pt-120 pb-120 md-pt-80 md-pb-80">
 				<div class="container">
@@ -920,162 +708,7 @@
 				</div>
 			</div>
 			<!-- Testimonial Section End -->
-
-			<!-- Blog Section Start -->
-			<div id="rs-blog" class="rs-blog blog-main-home blog-style2 blog-home5-style pt-85 pb-120 md-pt-40 md-pb-80">
-			    <div class="container">
-		       	   	<div class="sec-title4 text-center mb-40">
-		       	   		<div class="title-img"> 
-		       	   			<img src="../assets/images/sub-line.png" alt="">
-		       	   		</div>
-		       	   		<span class="sub-text">Latest News</span>
-		       	   		<h2 class="title">
-		       	   			Check Now Our Latest<br>
-		       	   			News & Blog
-		       	   		</h2>
-		       	   	</div>
-			        <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="false" data-md-device-dots="false">
-                       <div class="blog-item">
-                           <div class="image-wrap">
-                               <a href="single-post.html"><img src="../assets/images/blog/style1/1.jpg" alt=""></a>
-                               <ul class="post-categories">
-                                   <li><a href="blog-single.html">Commercial</a></li>
-                               </ul>
-                           </div>
-                           <div class="blog-content">
-	                           	<ul class="blog-meta">
-	                           		<li class="admin"><i class="fi fi-rr-calendar"></i>27 Jan 2022</li>
-	                           	    <li class="date"><i class="fi  fi-rr-user"></i>Admin</li>
-	                           	</ul>
-                              	<h3 class="blog-title"><a href="single-post.html">Our Core Values Guide Every Decision We Make</a></h3>
-                              	<div class="blog-btn">
-                              		<a href="single-post.html">
-                              			<span class="btn-text">
-                              				Read More                           
-                              			</span>
-                              			<i class="fi fi-rr-arrow-small-right"></i>
-                              		</a> 
-                              	</div>
-                           </div>
-                       </div>
-                       <div class="blog-item">
-                           <div class="image-wrap">
-                               <a href="single-post.html"><img src="../assets/images/blog/style1/2.jpg" alt=""></a>
-                               <ul class="post-categories">
-                                   <li><a href="blog-single.html">Commercial</a></li>
-                               </ul>
-                           </div>
-                           <div class="blog-content">
-	                           	<ul class="blog-meta">
-	                           		<li class="admin"><i class="fi fi-rr-calendar"></i>27 Jan 2022</li>
-	                           	    <li class="date"><i class="fi  fi-rr-user"></i>Admin</li>
-	                           	</ul>
-                              	<h3 class="blog-title"><a href="single-post.html">COVID-19 Cleaning Covers Home Treatmen</a></h3>
-                              	<div class="blog-btn">
-                              		<a href="single-post.html">
-                              			<span class="btn-text">
-                              				Read More                           
-                              			</span>
-                              			<i class="fi fi-rr-arrow-small-right"></i>
-                              		</a> 
-                              	</div>
-                           </div>
-                       </div>
-                       <div class="blog-item">
-                           <div class="image-wrap">
-                               <a href="single-post.html"><img src="../assets/images/blog/style1/3.jpg" alt=""></a>
-                               <ul class="post-categories">
-                                   <li><a href="blog-single.html">Commercial</a></li>
-                               </ul>
-                           </div>
-                           <div class="blog-content">
-	                           	<ul class="blog-meta">
-	                           		<li class="admin"><i class="fi fi-rr-calendar"></i>27 Jan 2022</li>
-	                           	    <li class="date"><i class="fi  fi-rr-user"></i>Admin</li>
-	                           	</ul>
-                              	<h3 class="blog-title"><a href="single-post.html">The Secret offer Cleaning Your Beadroom & Toilet</a></h3>
-                              	<div class="blog-btn">
-                              		<a href="single-post.html">
-                              			<span class="btn-text">
-                              				Read More                           
-                              			</span>
-                              			<i class="fi fi-rr-arrow-small-right"></i>
-                              		</a> 
-                              	</div>
-                           </div>
-                       </div>
-                       <div class="blog-item">
-                           <div class="image-wrap">
-                               <a href="single-post.html"><img src="../assets/images/blog/style1/4.jpg" alt=""></a>
-                               <ul class="post-categories">
-                                   <li><a href="blog-single.html">Commercial</a></li>
-                               </ul>
-                           </div>
-                           <div class="blog-content">
-	                          	<ul class="blog-meta">
-	                          		<li class="admin"><i class="fi fi-rr-calendar"></i>27 Jan 2022</li>
-	                          	    <li class="date"><i class="fi  fi-rr-user"></i>Admin</li>
-	                          	</ul>
-                              	<h3 class="blog-title"><a href="single-post.html">Checklists on how to keep different rooms clean</a></h3>
-                              	<div class="blog-btn">
-                              		<a href="single-post.html">
-                              			<span class="btn-text">
-                              				Read More                           
-                              			</span>
-                              			<i class="fi fi-rr-arrow-small-right"></i>
-                              		</a> 
-                              	</div>
-                           </div>
-                       </div>
-                       <div class="blog-item">
-                           <div class="image-wrap">
-                               <a href="single-post.html"><img src="../assets/images/blog/style1/5.jpg" alt=""></a>
-                               <ul class="post-categories">
-                                   <li><a href="blog-single.html">Commercial</a></li>
-                               </ul>
-                           </div>
-                           <div class="blog-content">
-	                          	<ul class="blog-meta">
-	                          		<li class="admin"><i class="fi fi-rr-calendar"></i>27 Jan 2022</li>
-	                          	    <li class="date"><i class="fi  fi-rr-user"></i>Admin</li>
-	                          	</ul>
-                              	<h3 class="blog-title"><a href="single-post.html">Benefits of a professional cleaning for service</a></h3>
-                              	<div class="blog-btn">
-                              		<a href="single-post.html">
-                              			<span class="btn-text">
-                              				Read More                           
-                              			</span>
-                              			<i class="fi fi-rr-arrow-small-right"></i>
-                              		</a> 
-                              	</div>
-                           </div>
-                       </div><div class="blog-item">
-                           <div class="image-wrap">
-                               <a href="single-post.html"><img src="../assets/images/blog/style1/6.jpg" alt=""></a>
-                               <ul class="post-categories">
-                                   <li><a href="blog-single.html">Commercial</a></li>
-                               </ul>
-                           </div>
-                           <div class="blog-content">
-	                          	<ul class="blog-meta">
-	                          		<li class="admin"><i class="fi fi-rr-calendar"></i>27 Jan 2022</li>
-	                          	    <li class="date"><i class="fi  fi-rr-user"></i>Admin</li>
-	                          	</ul>
-                              	<h3 class="blog-title"><a href="single-post.html">Showcase the best products of the season</a></h3>
-                              	<div class="blog-btn">
-                              		<a href="single-post.html">
-                              			<span class="btn-text">
-                              				Read More                           
-                              			</span>
-                              			<i class="fi fi-rr-arrow-small-right"></i>
-                              		</a> 
-                              	</div>
-                           </div>
-                       </div>
-			        </div>
-			    </div>
-			</div>
-			<!-- Blog Section End -->
+	 
 
 			<!-- Partner Start -->
 			<div class="rs-partner partner-main-home partner-style5 pt-45 pb-45">
